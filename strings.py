@@ -13,3 +13,15 @@ print(name.count("a"))
 print(name.isalnum()) #--> is alphanumeric
 print(name.isnumeric())#--> is numeric or not
 
+a1 = "Satyam"
+
+a2 = 'Satyam'
+
+a3 = '''Hey how are  you
+this method is used for multi
+line typing in string'''
+
+print(a1 + "\n" + a2 + "\n" + a3)
+
+# Strings are immutable --> can't be changed --> i.e name[0:3] is a new string made by python
+
